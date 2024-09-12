@@ -44,3 +44,7 @@ __Classe:__
 __Fluxo:__
 
 ![DiagramaDeFluxo](diagramas/diagrama-fluxo.png)
+
+__Prototipagem:__
+
+https://www.figma.com/design/oeaZJAuyEQ6VDR5qSErb0c/Untitled?node-id=0-1&t=TesPjHiOBj0jRTGu-1
