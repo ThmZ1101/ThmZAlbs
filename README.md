@@ -30,6 +30,82 @@ O POSTARSHOW é crucial para garantir a experiência fluida e segura dos usuári
 5. Temporal
 Lançar o aplicativo em 3 meses, com testes de carga e segurança realizados nas últimas 4 semanas antes do evento, garantindo a disponibilidade total da plataforma 30 dias antes do início da venda dos ingressos.
 
+# Cronograma do Projeto:
+
+Mês 1: Planejamento e Desenvolvimento Inicial
+
+Semana 1-2: Definição detalhada dos requisitos e fluxos de usuários.
+Configuração inicial do ambiente de desenvolvimento (Node.js, MongoDB, Express, React).
+Criação do sistema de autenticação e autorização com JWT.
+
+Semana 3-4:
+
+Implementação do registro e login de usuários.
+Criação da interface do usuário com React (Componentes de Login, Registro).
+Configuração do banco de dados MongoDB e integração com Node.js (modelo de usuário).
+
+Mês 2: Funcionalidades Principais e Integração
+
+Semana 1-2:
+
+Implementação das rotas protegidas por JWT (para gerenciar compras).
+Desenvolver o fluxo de compra de ingressos (API para gerenciamento de ingressos).
+Integração de front-end (React) com back-end (Node.js/Express).
+
+Semana 3-4:
+
+Implementação do carrinho de compras e histórico de pedidos.
+Otimização da escalabilidade e performance do servidor (Node.js e MongoDB).
+Testes unitários e de integração das principais funcionalidades.
+
+Mês 3: Testes e Preparação para Lançamento
+
+Semana 1-2:
+
+Realização de testes de carga (para garantir suporte a 10.000 usuários simultâneos).
+Testes de segurança (incluindo ataques comuns, como CSRF e XSS).
+Implementação de melhorias de interface com base no feedback inicial.
+
+Semana 3-4:
+
+Otimização final e correção de bugs.
+Testes finais de carga, segurança e usabilidade.
+Lançamento da versão de teste para validação de usuários.
+
+Semana 4:
+
+Preparação para o lançamento oficial (deploy em ambiente de produção).
+Monitoramento inicial e suporte durante o período de vendas.
+
+
+# Análise de Erros Potenciais:
+
+
+Problema: Latência Alta ou Lentidão Durante o Pico de Usuários
+
+Causa: Falta de otimização no banco de dados ou no servidor.
+Solução: Utilizar índices adequados no MongoDB, caching de dados com Redis ou outro mecanismo, e balanceamento de carga com serviços como Nginx.
+Problema: Falhas na Autenticação JWT
+
+Causa: Erros de configuração no middleware ou gerenciamento incorreto de tokens.
+Solução: Garantir que os tokens JWT estejam sendo corretamente gerados e verificados, implementar um sistema de refresh tokens para sessões prolongadas.
+Problema: Erro ao Processar Alto Volume de Pedidos
+
+Causa: Conexões simultâneas e sobrecarga do servidor.
+Solução: Implementar uma arquitetura baseada em microsserviços ou filas de mensagens para distribuição de carga (RabbitMQ ou Kafka).
+
+
+# Recursos Tecnológicos
+
+1. Node.js: Servidor back-end com escalabilidade, usando a biblioteca jsonwebtoken para JWT.
+
+2. Express: Framework leve e flexível para criação de APIs REST.
+
+3. MongoDB: Banco de dados NoSQL para armazenamento de usuários, ingressos e transações, focado em escalabilidade e flexibilidade.
+
+4. React: Biblioteca front-end para criar uma interface de usuário dinâmica e intuitiva.
+
+5. JWT (JSON Web Tokens): Para gerenciamento de sessões seguras, garantindo que apenas usuários autenticados possam acessar áreas protegidas da aplicação.
 
 # Diagramas:
 
