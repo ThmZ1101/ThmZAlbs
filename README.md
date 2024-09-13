@@ -111,15 +111,15 @@ Solução: Implementar uma arquitetura baseada em microsserviços ou filas de me
 
 __Uso:__
 
-![DiagramaDeUso](diagramas/diagrama-uso.png)
+![DiagramaDeUso](Diagramas/diagrama-uso.png)
 
 __Classe:__
 
-![DiagramaDeClasse](diagramas/diagrama-classe.png)
+![DiagramaDeClasse](Diagramas/diagrama-classe.png)
 
 __Fluxo:__
 
-![DiagramaDeFluxo](diagramas/diagrama-fluxo.png)
+![DiagramaDeFluxo](Diagramas/diagrama-fluxo.png)
 
 # Diagramas ADM
 
