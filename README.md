@@ -107,9 +107,21 @@ Solução: Implementar uma arquitetura baseada em microsserviços ou filas de me
 
 5. JWT (JSON Web Tokens): Para gerenciamento de sessões seguras, garantindo que apenas usuários autenticados possam acessar áreas protegidas da aplicação.
 
-# Diagramas:
+# Diagramas Usuario:
 
 __Uso:__
+
+![DiagramaDeUso](diagramas/diagrama-uso.png)
+
+__Classe:__
+
+![DiagramaDeClasse](diagramas/diagrama-classe.png)
+
+__Fluxo:__
+
+![DiagramaDeFluxo](diagramas/diagrama-fluxo.png)
+
+# Diagramas ADM
 
 ![DiagramaDeUso](diagramas/diagrama-uso.png)
 
