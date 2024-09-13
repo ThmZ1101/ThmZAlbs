@@ -123,15 +123,15 @@ __Fluxo:__
 
 # Diagramas ADM
 
-![DiagramaDeUso](diagramas/diagrama-uso.png)
+![DiagramaDeUso](Diagramas/diagrama-uso-ADM.png)
 
 __Classe:__
 
-![DiagramaDeClasse](diagramas/diagrama-classe.png)
+![DiagramaDeClasse](Diagramas/diagrama-classe-ADM.png)
 
 __Fluxo:__
 
-![DiagramaDeFluxo](diagramas/diagrama-fluxo.png)
+![DiagramaDeFluxo](Diagramas/diagrama-fluxo-ADM.png)
 
 __Prototipagem:__
 
